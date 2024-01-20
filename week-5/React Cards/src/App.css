@@ -1,0 +1,36 @@
+
+.container{
+  height: 90vh;
+  /* width: 80%; */
+  padding: 2rem;
+}
+.card_list{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.card{
+  height: 250px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 3rem;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+h1{
+  margin: 0;
+}
+
+a{
+  background-color: rgb(45, 45, 227);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
